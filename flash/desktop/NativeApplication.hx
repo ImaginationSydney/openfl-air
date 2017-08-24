@@ -5,6 +5,7 @@ extern class NativeApplication extends flash.events.EventDispatcher {
 	var applicationDescriptor(default,null) : flash.xml.XML;
 	var applicationID(default,null) : String;
 	var autoExit : Bool;
+	var executeInBackground : Bool;
 	var icon(default,null) : InteractiveIcon;
 	var idleThreshold : Int;
 	var menu : flash.display.NativeMenu;

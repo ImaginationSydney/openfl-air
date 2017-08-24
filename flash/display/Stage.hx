@@ -3,10 +3,12 @@ package flash.display;
 extern class Stage extends DisplayObjectContainer {
 	var align : StageAlign;
 	var allowsFullScreen(default,null) : Bool;
+	var allowsFullScreenInteractive(default,null) : Bool;
 	var autoOrients : Bool;
 	var color : UInt;
 	var colorCorrection : ColorCorrection;
 	var colorCorrectionSupport(default,null) : ColorCorrectionSupport;
+	@:require(flash11_4) var contentsScaleFactor(default,null) : Float;
 	var constructor : Dynamic;
 	var deviceOrientation(default,null) : StageOrientation;
 	var displayContextInfo(default,null) : String;

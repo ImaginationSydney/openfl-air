@@ -1,0 +1,10 @@
+{
+	"name": "air",
+	"url" : "https://github.com/ImaginationSydney/openfl-air.git",
+	"license": "BSD",
+	"tags": ["air", "flash"],
+	"description": "Externs for Adobe AIR",
+	"version": "27.0.0",
+	"releasenote": "AIR3 externs for haxe3, based off 'air3' by 'jan_flanders'",
+	"contributors": ["p.j.shand"]
+}

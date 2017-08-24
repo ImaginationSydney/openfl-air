@@ -28,4 +28,5 @@ extern class SQLConnection extends flash.events.EventDispatcher {
 	function rollback(?responder : flash.net.Responder) : Void;
 	function rollbackToSavepoint(?name : String, ?responder : flash.net.Responder) : Void;
 	function setSavepoint(?name : String, ?responder : flash.net.Responder) : Void;
+	static var isSupported(default,null) : Bool;
 }

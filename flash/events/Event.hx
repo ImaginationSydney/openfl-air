@@ -20,6 +20,8 @@ extern class Event {
 	static var ADDED_TO_STAGE : String;
 	static var CANCEL : String;
 	static var CHANGE : String;
+	static var CHANNEL_MESSAGE : String;
+	static var CHANNEL_STATE : String;
 	static var CLEAR : String;
 	static var CLOSE : String;
 	static var CLOSING : String;
@@ -34,6 +36,7 @@ extern class Event {
 	static var EXITING : String;
 	static var EXIT_FRAME : String;
 	static var FRAME_CONSTRUCTED : String;
+	static var FRAME_LABEL : String;
 	static var FULLSCREEN : String;
 	static var HTML_BOUNDS_CHANGE : String;
 	static var HTML_DOM_INITIALIZE : String;
@@ -57,11 +60,15 @@ extern class Event {
 	static var STANDARD_ERROR_CLOSE : String;
 	static var STANDARD_INPUT_CLOSE : String;
 	static var STANDARD_OUTPUT_CLOSE : String;
+	static var SUSPEND : String;
 	static var TAB_CHILDREN_CHANGE : String;
 	static var TAB_ENABLED_CHANGE : String;
 	static var TAB_INDEX_CHANGE : String;
+	static var TEXTURE_READY : String;
 	static var TEXT_INTERACTION_MODE_CHANGE : String;
 	static var UNLOAD : String;
 	static var USER_IDLE : String;
 	static var USER_PRESENT : String;
+	static var VIDEO_FRAME : String;
+	static var WORKER_STATE : String;
 }
